@@ -7,6 +7,6 @@ import java.io.IOException;
 public class HelloServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("<h1>hell</h1");
+        resp.getWriter().println("<h1>hello</h1");
     }
 }
